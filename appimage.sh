@@ -86,6 +86,7 @@ else
     echo ""
     echo "Success build, check your file:"
     ls -lh Gqrx-*.AppImage
+    cp Gqrx-*.AppImage /dist
 fi
 
 if [ "$1" == "-u" ] ; then
